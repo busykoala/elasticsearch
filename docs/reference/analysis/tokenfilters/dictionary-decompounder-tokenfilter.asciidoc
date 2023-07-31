@@ -133,6 +133,11 @@ output. Defaults to `5`.
 (Optional, Boolean)
 If `true`, only include the longest matching subword. Defaults to `false`.
 
+`subtoken_position_increment`::
+(Optional, integer)
+Enable AND match clauses on subtoken setting the subtoken position
+increment to `1`. Defaults to `0`.
+
 [[analysis-dict-decomp-tokenfilter-customize]]
 ==== Customize and add to an analyzer
 
